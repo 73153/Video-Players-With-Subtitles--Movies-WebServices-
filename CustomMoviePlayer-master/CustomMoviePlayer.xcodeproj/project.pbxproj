@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480E0478139AE4AC000D9DA7 /* UIButtonBarPause.png in Resources */ = {isa = PBXBuildFile; fileRef = 480E0476139AE4AC000D9DA7 /* UIButtonBarPause.png */; };
+		480E0479139AE4AC000D9DA7 /* UIButtonBarPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 480E0477139AE4AC000D9DA7 /* UIButtonBarPlay.png */; };
+		480E0487139B19D2000D9DA7 /* CustomUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E0486139B19D2000D9DA7 /* CustomUISlider.m */; };
+		4840188413A13FA000F8CDFF /* UIButtonBarPlayGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 4840188313A13FA000F8CDFF /* UIButtonBarPlayGray.png */; };
+		4859E9C9139C8C1200231A87 /* UIButtonBarFastForward.png in Resources */ = {isa = PBXBuildFile; fileRef = 4859E9C8139C8C1200231A87 /* UIButtonBarFastForward.png */; };
+		4859E9CC139C8C2A00231A87 /* UIButtonBarRewind.png in Resources */ = {isa = PBXBuildFile; fileRef = 4859E9CB139C8C2A00231A87 /* UIButtonBarRewind.png */; };
+		4859E9CE139C90AA00231A87 /* UIButtonBarFastForwardGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 4859E9CD139C90AA00231A87 /* UIButtonBarFastForwardGray.png */; };
+		4859E9D0139C92A900231A87 /* UIButtonBarRewindGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 4859E9CF139C92A900231A87 /* UIButtonBarRewindGray.png */; };
+		4859E9D4139CB08300231A87 /* UIButtonBarPauseGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 4859E9D3139CB08300231A87 /* UIButtonBarPauseGray.png */; };
+		48880746137F2ECC006CC9DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48880745137F2ECC006CC9DB /* UIKit.framework */; };
+		48880748137F2ECC006CC9DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48880747137F2ECC006CC9DB /* Foundation.framework */; };
+		4888074A137F2ECC006CC9DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48880749137F2ECC006CC9DB /* CoreGraphics.framework */; };
+		48880750137F2ECC006CC9DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4888074E137F2ECC006CC9DB /* InfoPlist.strings */; };
+		48880753137F2ECC006CC9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48880752137F2ECC006CC9DB /* main.m */; };
+		48880756137F2ECC006CC9DB /* CustomMoviePlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48880755137F2ECC006CC9DB /* CustomMoviePlayerAppDelegate.m */; };
+		48880759137F2ECC006CC9DB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48880757137F2ECC006CC9DB /* MainWindow.xib */; };
+		4888075C137F2ECC006CC9DB /* CustomMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4888075B137F2ECC006CC9DB /* CustomMoviePlayerViewController.m */; };
+		4888075F137F2ECC006CC9DB /* CustomMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4888075D137F2ECC006CC9DB /* CustomMoviePlayerViewController.xib */; };
+		48880766137F325F006CC9DB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48880765137F325F006CC9DB /* MediaPlayer.framework */; };
+		48880768137F35B5006CC9DB /* Movie.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 48880767137F35B5006CC9DB /* Movie.m4v */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		480E0476139AE4AC000D9DA7 /* UIButtonBarPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarPause.png; sourceTree = "<group>"; };
+		480E0477139AE4AC000D9DA7 /* UIButtonBarPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarPlay.png; sourceTree = "<group>"; };
+		480E0485139B19D2000D9DA7 /* CustomUISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUISlider.h; sourceTree = "<group>"; };
+		480E0486139B19D2000D9DA7 /* CustomUISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUISlider.m; sourceTree = "<group>"; };
+		4840188313A13FA000F8CDFF /* UIButtonBarPlayGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarPlayGray.png; sourceTree = "<group>"; };
+		4859E9C8139C8C1200231A87 /* UIButtonBarFastForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarFastForward.png; sourceTree = "<group>"; };
+		4859E9CB139C8C2A00231A87 /* UIButtonBarRewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarRewind.png; sourceTree = "<group>"; };
+		4859E9CD139C90AA00231A87 /* UIButtonBarFastForwardGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarFastForwardGray.png; sourceTree = "<group>"; };
+		4859E9CF139C92A900231A87 /* UIButtonBarRewindGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarRewindGray.png; sourceTree = "<group>"; };
+		4859E9D3139CB08300231A87 /* UIButtonBarPauseGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarPauseGray.png; sourceTree = "<group>"; };
+		48880741137F2ECC006CC9DB /* CustomMoviePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomMoviePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48880745137F2ECC006CC9DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48880747137F2ECC006CC9DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48880749137F2ECC006CC9DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4888074D137F2ECC006CC9DB /* CustomMoviePlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomMoviePlayer-Info.plist"; sourceTree = "<group>"; };
+		4888074F137F2ECC006CC9DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48880751137F2ECC006CC9DB /* CustomMoviePlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomMoviePlayer-Prefix.pch"; sourceTree = "<group>"; };
+		48880752137F2ECC006CC9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48880754137F2ECC006CC9DB /* CustomMoviePlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomMoviePlayerAppDelegate.h; sourceTree = "<group>"; };
+		48880755137F2ECC006CC9DB /* CustomMoviePlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMoviePlayerAppDelegate.m; sourceTree = "<group>"; };
+		48880758137F2ECC006CC9DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4888075A137F2ECC006CC9DB /* CustomMoviePlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomMoviePlayerViewController.h; sourceTree = "<group>"; };
+		4888075B137F2ECC006CC9DB /* CustomMoviePlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMoviePlayerViewController.m; sourceTree = "<group>"; };
+		4888075E137F2ECC006CC9DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CustomMoviePlayerViewController.xib; sourceTree = "<group>"; };
+		48880765137F325F006CC9DB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		48880767137F35B5006CC9DB /* Movie.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Movie.m4v; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4888073E137F2ECC006CC9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48880766137F325F006CC9DB /* MediaPlayer.framework in Frameworks */,
+				48880746137F2ECC006CC9DB /* UIKit.framework in Frameworks */,
+				48880748137F2ECC006CC9DB /* Foundation.framework in Frameworks */,
+				4888074A137F2ECC006CC9DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		480E0483139B19AA000D9DA7 /* CustomUISlider */ = {
+			isa = PBXGroup;
+			children = (
+				480E0485139B19D2000D9DA7 /* CustomUISlider.h */,
+				480E0486139B19D2000D9DA7 /* CustomUISlider.m */,
+			);
+			name = CustomUISlider;
+			sourceTree = "<group>";
+		};
+		48880736137F2ECC006CC9DB = {
+			isa = PBXGroup;
+			children = (
+				4888074B137F2ECC006CC9DB /* CustomMoviePlayer */,
+				48880744137F2ECC006CC9DB /* Frameworks */,
+				48880742137F2ECC006CC9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48880742137F2ECC006CC9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48880741137F2ECC006CC9DB /* CustomMoviePlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48880744137F2ECC006CC9DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48880765137F325F006CC9DB /* MediaPlayer.framework */,
+				48880745137F2ECC006CC9DB /* UIKit.framework */,
+				48880747137F2ECC006CC9DB /* Foundation.framework */,
+				48880749137F2ECC006CC9DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4888074B137F2ECC006CC9DB /* CustomMoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				480E0483139B19AA000D9DA7 /* CustomUISlider */,
+				48880767137F35B5006CC9DB /* Movie.m4v */,
+				48880754137F2ECC006CC9DB /* CustomMoviePlayerAppDelegate.h */,
+				48880755137F2ECC006CC9DB /* CustomMoviePlayerAppDelegate.m */,
+				48880757137F2ECC006CC9DB /* MainWindow.xib */,
+				4888075A137F2ECC006CC9DB /* CustomMoviePlayerViewController.h */,
+				4888075B137F2ECC006CC9DB /* CustomMoviePlayerViewController.m */,
+				4888075D137F2ECC006CC9DB /* CustomMoviePlayerViewController.xib */,
+				4888074C137F2ECC006CC9DB /* Supporting Files */,
+			);
+			path = CustomMoviePlayer;
+			sourceTree = "<group>";
+		};
+		4888074C137F2ECC006CC9DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4859E9D3139CB08300231A87 /* UIButtonBarPauseGray.png */,
+				4840188313A13FA000F8CDFF /* UIButtonBarPlayGray.png */,
+				4859E9CD139C90AA00231A87 /* UIButtonBarFastForwardGray.png */,
+				4859E9CB139C8C2A00231A87 /* UIButtonBarRewind.png */,
+				4859E9CF139C92A900231A87 /* UIButtonBarRewindGray.png */,
+				480E0476139AE4AC000D9DA7 /* UIButtonBarPause.png */,
+				4859E9C8139C8C1200231A87 /* UIButtonBarFastForward.png */,
+				480E0477139AE4AC000D9DA7 /* UIButtonBarPlay.png */,
+				4888074D137F2ECC006CC9DB /* CustomMoviePlayer-Info.plist */,
+				4888074E137F2ECC006CC9DB /* InfoPlist.strings */,
+				48880751137F2ECC006CC9DB /* CustomMoviePlayer-Prefix.pch */,
+				48880752137F2ECC006CC9DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48880740137F2ECC006CC9DB /* CustomMoviePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48880762137F2ECC006CC9DB /* Build configuration list for PBXNativeTarget "CustomMoviePlayer" */;
+			buildPhases = (
+				4888073D137F2ECC006CC9DB /* Sources */,
+				4888073E137F2ECC006CC9DB /* Frameworks */,
+				4888073F137F2ECC006CC9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomMoviePlayer;
+			productName = CustomMoviePlayer;
+			productReference = 48880741137F2ECC006CC9DB /* CustomMoviePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48880738137F2ECC006CC9DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4888073B137F2ECC006CC9DB /* Build configuration list for PBXProject "CustomMoviePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48880736137F2ECC006CC9DB;
+			productRefGroup = 48880742137F2ECC006CC9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48880740137F2ECC006CC9DB /* CustomMoviePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4888073F137F2ECC006CC9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48880750137F2ECC006CC9DB /* InfoPlist.strings in Resources */,
+				48880759137F2ECC006CC9DB /* MainWindow.xib in Resources */,
+				4888075F137F2ECC006CC9DB /* CustomMoviePlayerViewController.xib in Resources */,
+				48880768137F35B5006CC9DB /* Movie.m4v in Resources */,
+				480E0478139AE4AC000D9DA7 /* UIButtonBarPause.png in Resources */,
+				480E0479139AE4AC000D9DA7 /* UIButtonBarPlay.png in Resources */,
+				4859E9C9139C8C1200231A87 /* UIButtonBarFastForward.png in Resources */,
+				4859E9CC139C8C2A00231A87 /* UIButtonBarRewind.png in Resources */,
+				4859E9CE139C90AA00231A87 /* UIButtonBarFastForwardGray.png in Resources */,
+				4859E9D0139C92A900231A87 /* UIButtonBarRewindGray.png in Resources */,
+				4859E9D4139CB08300231A87 /* UIButtonBarPauseGray.png in Resources */,
+				4840188413A13FA000F8CDFF /* UIButtonBarPlayGray.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4888073D137F2ECC006CC9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48880753137F2ECC006CC9DB /* main.m in Sources */,
+				48880756137F2ECC006CC9DB /* CustomMoviePlayerAppDelegate.m in Sources */,
+				4888075C137F2ECC006CC9DB /* CustomMoviePlayerViewController.m in Sources */,
+				480E0487139B19D2000D9DA7 /* CustomUISlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4888074E137F2ECC006CC9DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4888074F137F2ECC006CC9DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48880757137F2ECC006CC9DB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48880758137F2ECC006CC9DB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4888075D137F2ECC006CC9DB /* CustomMoviePlayerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4888075E137F2ECC006CC9DB /* en */,
+			);
+			name = CustomMoviePlayerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48880760137F2ECC006CC9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		48880761137F2ECC006CC9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		48880763137F2ECC006CC9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomMoviePlayer/CustomMoviePlayer-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "CustomMoviePlayer/CustomMoviePlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48880764137F2ECC006CC9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomMoviePlayer/CustomMoviePlayer-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "CustomMoviePlayer/CustomMoviePlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4888073B137F2ECC006CC9DB /* Build configuration list for PBXProject "CustomMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48880760137F2ECC006CC9DB /* Debug */,
+				48880761137F2ECC006CC9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48880762137F2ECC006CC9DB /* Build configuration list for PBXNativeTarget "CustomMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48880763137F2ECC006CC9DB /* Debug */,
+				48880764137F2ECC006CC9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48880738137F2ECC006CC9DB /* Project object */;
+}
